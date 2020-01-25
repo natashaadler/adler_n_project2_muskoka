@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* Main CSS Document */
+@font-face {
+	font-family: "BebasNeue-regular";
+	src: url('../fonts/bebasNeue-regular-webfont.eot');
+	src: url('../fonts/bebasNeue-regular-webfont.eot?iefix') format("embedded-opentype")
+		   url('../fonts/bebasNeue-regular-webfont.woff') format("woff")
+		   url('../fonts/bebasNeue-regular-webfont.ttf') format("truetype")
+		   url('../fonts/bebasNeue-regular-webfont.svg#bebaNeue-regular') format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+.hidden {
+  display: none;
+}
+/* Header */
+.header {
+  margin-top: 20px;
+  display:inline-flex;
+}
+.logo img {
+  width: 150px;
+  padding: 0px 20px;
+}
+.title {
+  margin-top: 50px;
+}
+.title h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: 15px;
+  text-align: center;
+  line-height: 80px;
+}
+.title h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  letter-spacing: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+/*Main Container */
+.mainContainer {
+  margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+  font-family: "BebasNeue-Regular", arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #1f261f;
+}
+.mainContainer h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 20px 20px 20px 0;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.mainContainer h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.mainContainer p {
+  line-height: 22px;
+  letter-spacing: .5px;
+}
+/* Why */
+.whyContainer img {
+  float: right;
+  margin: 20px;
+  width: 700px;
+}
+/*Values*/
+.valuesContainer h2 {
+  padding: 10px 0px;
+}
+.values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.values div {
+  width: 210px;
+  padding: 0px 0px;
+}
+/*beer*/
+.beerImage img{
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  float: right;
+}
+.beersContainer ul li{
+  line-height: 22px;
+  letter-spacing: .5px;
+  font-family: "BebasNeue-Regular", arial, sans-serif;
+  margin-left: 20px;
+}
