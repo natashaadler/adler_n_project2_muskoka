@@ -91,13 +91,14 @@
 }
 /*beer*/
 .beerImage img{
-  width: 500px;
+  width: 190px;
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   float: right;
 }
+
 .beersContainer ul li{
   line-height: 22px;
   letter-spacing: .5px;
